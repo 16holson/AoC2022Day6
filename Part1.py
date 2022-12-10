@@ -31,7 +31,7 @@ def main():
     file = readFile()
     sys.setrecursionlimit(2000)
     print(traverseLine(file.readline(), 0))
-
+    file.close()
 
 if (__name__ == "__main__"):
     main()

@@ -36,6 +36,7 @@ def main():
     for i in range(len(line)):
         if(isUnique(line[i:(i+14)]) and len(line[i:(i+14)]) == 14):
             print(i+14)
+    file.close()
 
 
 
